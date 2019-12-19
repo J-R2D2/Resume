@@ -1,0 +1,83 @@
+body {
+    margin: 7%;
+    font-family: 'Linden Hill', serif;
+}
+@media (max-width: 1200px) {
+    body {
+    	margin: 30px 5%;
+    }
+}
+header {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.developer {
+    color: darkred;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.table {
+    display: table;
+    border-spacing: 25px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.caption {
+    display: table-caption;
+    text-align: left;
+}
+
+.row {
+    display: table-row;
+
+}
+
+.row > * {
+    display: table-cell;
+    text-align: center;
+}
+
+i {
+    font-size: 3em;
+}
+
+footer i {
+    font-size: 1em;
+}
+
+.footer {
+    font-size: smaller;
+}
+
+ol {
+    list-style: none;
+    display: inline-flex;
+}
+
+.myphoto {
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 6px 3px 3px gray;
+}
+
+section {
+    text-align: center;
+}
+
+.row img {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.row img:hover {
+    -webkit-filter: blur(0);
+    filter: blur(0);
